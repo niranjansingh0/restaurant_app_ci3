@@ -1,0 +1,137 @@
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Body */
+body {
+    background-color: #f4f6f8;
+    color: #333;
+}
+
+/* Header */
+header {
+    background-color: #e63946;
+    padding: 15px;
+    color: white;
+    text-align: center;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+/* Container */
+.container {
+    width: 90%;
+    max-width: 1100px;
+    margin: 20px auto;
+}
+
+/* Menu Card */
+.menu-card {
+    background: white;
+    border-radius: 8px;
+    padding: 15px;
+    margin-bottom: 15px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.08);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* Menu Info */
+.menu-info h3 {
+    color: #222;
+    margin-bottom: 5px;
+}
+
+.menu-info p {
+    font-size: 14px;
+    color: #666;
+}
+
+/* Price */
+.price {
+    font-size: 18px;
+    font-weight: bold;
+    color: #1d3557;
+}
+
+/* Buttons */
+.btn {
+    padding: 8px 14px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+.btn-add {
+    background-color: #2a9d8f;
+    color: white;
+}
+
+.btn-add:hover {
+    background-color: #21867a;
+}
+
+.btn-danger {
+    background-color: #e63946;
+    color: white;
+}
+
+.btn-danger:hover {
+    background-color: #c92f3b;
+}
+
+/* Form */
+form {
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.08);
+}
+
+form input, form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 12px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+/* Orders */
+.order-box {
+    background: white;
+    padding: 15px;
+    border-radius: 8px;
+    margin-bottom: 10px;
+    border-left: 5px solid #457b9d;
+}
+
+/* Status */
+.status {
+    font-weight: bold;
+}
+
+.status.Pending {
+    color: orange;
+}
+
+.status.Accepted {
+    color: green;
+}
+
+.status.Completed {
+    color: blue;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    .menu-card {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+}
