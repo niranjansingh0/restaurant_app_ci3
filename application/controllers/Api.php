@@ -23,7 +23,7 @@ class Api extends CI_Controller {
         }
 
         // API KEY
-        $api_key = 'AIzaSyBTPM6bsQPVIVEqeu7xr2Ya7P6nyWTkttw';
+        $api_key = 'your api key';
 
         // API endpoint
         $url = "https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent?key=$api_key";
